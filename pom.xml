@@ -95,7 +95,7 @@
               <value>10</value>
             </property>
           </properties>
-        <outputDirectory>${project.basedir}</outputDirectory>
+<!--        <outputDirectory>${project.build.directory}/site</outputDirectory>-->
         <reportsDirectory>${project.basedir}</reportsDirectory>
         </configuration>
 
