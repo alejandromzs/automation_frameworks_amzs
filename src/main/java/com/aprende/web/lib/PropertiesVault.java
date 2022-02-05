@@ -1,7 +1,6 @@
 package com.aprende.web.lib;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -15,12 +14,7 @@ public class PropertiesVault {
         try {
             prop = new  Properties();
             inputStreamProp =   new FileInputStream("src/test/java/resources/cucumber.properties");
-
-            if (inputStreamProp != null) {
-                prop.load(inputStreamProp);
-            } else {
-                throw new FileNotFoundException("property file not found");
-            }
+            prop.load(inputStreamProp);
         }catch (Exception e){
             e.printStackTrace();
         }finally {

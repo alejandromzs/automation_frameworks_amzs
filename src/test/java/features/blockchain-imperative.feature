@@ -4,7 +4,7 @@ Feature: Validation that a block N is related to the N-1 block using the hash of
    IN ORDER TO:  guarantee the blockchain has not been corrupted
 
 
-  #TC_1 Using Imperative stile to test next blocks: from 16 to 20
+  #TC_1 Using Imperative style to test blocks: from 16 to 20
   @TC_1 @Smoke
   Scenario Outline: Verify Blockchain Hash is correct for the first 5 blocks started from the block number 15
     Given I want to test a blockchain page
@@ -63,4 +63,3 @@ Feature: Validation that a block N is related to the N-1 block using the hash of
       | https://api.blockcypher.com/v1/btc/main/blocks/ |  |
 
 
-#Using Declarative stile

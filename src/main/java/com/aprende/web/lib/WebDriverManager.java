@@ -10,8 +10,6 @@ public class WebDriverManager {
     String browser = PropertiesVault.getProp("webdriver.browser");
     WebDriver driver;
 
-
-
     public WebDriverManager(){
 
         switch (browser){
@@ -33,9 +31,5 @@ public class WebDriverManager {
 
     public WebDriver getDriver() {
         return driver;
-    }
-
-    public void setDriver(WebDriver driver) {
-        this.driver = driver;
     }
 }

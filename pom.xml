@@ -87,7 +87,7 @@
         <version>3.0.0-M5</version>
         <configuration>
         <includes>
-        <include>**/testrunner*.java</include>
+        <include>**/testRunner*.java</include>
 		</includes>
         <properties>
        		 <property>
@@ -95,7 +95,6 @@
               <value>10</value>
             </property>
           </properties>
-<!--        <outputDirectory>${project.build.directory}/site</outputDirectory>-->
         <reportsDirectory>${project.basedir}</reportsDirectory>
         </configuration>
 

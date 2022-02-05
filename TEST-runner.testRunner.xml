@@ -1,6 +1,5 @@
 <!--NOTE: File not ignored only to present results-->
 
-
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.testRunner" time="29.422" tests="41" errors="0" skipped="0" failures="0">
   <properties>
