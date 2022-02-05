@@ -11,9 +11,9 @@ Environment Variables Configured to work with Java and Maven
 
 # Configurations:
 <h4> Update cucumber.properties located in test/java/resources </h4>
-This properties are needed in order to run tests:
+These properties are needed in order to run tests:
 
-* webdriver.driver.path= folder location of the chromedriver.exe
+* webdriver.driver.path=  folder location of the chromedriver.exe
 * webdriver.driver.version= name of the chromedriver. You may need to change according your chrome version
 * webdriver.browser= browser to run tests. Current support: Chrome
 * webdriver.browser.dimension.width=  Width dimension for browser
@@ -22,11 +22,11 @@ This properties are needed in order to run tests:
 
 # Commands for execution:
 * Run the following command using a Terminal: 
-* 
+
 ```bash
 mvn clean test -Dcucumber.options="--tags (@TC_3 and @Cert)"
 ```
-* The Tests can be executed/debugged using testRunner located in test/java/runner
+* The tests can be executed/debugged using testRunner located in test/java/runner
 
 # Test Results
 * maven-surefire-plugin will generate the report files: runner.testRunner.txt and TEST-runner.testRUnner.xml when executed using mvn commands. 
@@ -87,7 +87,7 @@ Then I verify that each hash for a block is equal to the prev_block of the next 
 
 # DataEntities Layer:
 * Java files that represent an entity that can be identified from the webpage.
-* files are located in path: main/java/com/aprende/web/dataEntities. Example BlockEntity.java
+* Files are located in path: main/java/com/aprende/web/dataEntities. Example BlockEntity.java
 
 ```
   public BlockEntity(String prev_block, String hash) {
@@ -98,7 +98,7 @@ Then I verify that each hash for a block is equal to the prev_block of the next 
 
 # Lib Layer:
 * Java files that provide additional functionality to the framework.
-* files are located in path: main/java/com/aprende/web/lib. 
+* Files are located in path: main/java/com/aprende/web/lib. 
 * Example WebDriverManager.java for WebDriver configuration and PropertiesVault.java for loading properties.
 
 
@@ -122,3 +122,7 @@ Then I verify that each hash for a block is equal to the prev_block of the next 
 
     }
 ```
+
+
+## Author
+- [Alejandro Zegarra Silva](https://pe.linkedin.com/in/alejandro-magno-zegarra-silva-7a0bb135)
