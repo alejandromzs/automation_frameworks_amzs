@@ -1,0 +1,6 @@
+#NOTE: File not ignored only to present results
+
+-------------------------------------------------------------------------------
+Test set: runner.testRunner
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.422 s - in runner.testRunner
