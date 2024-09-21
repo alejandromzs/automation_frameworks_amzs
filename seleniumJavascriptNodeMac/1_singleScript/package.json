@@ -1,0 +1,22 @@
+{
+  "name": "1_singlescript",
+  "version": "1.0.0",
+  "description": "basic selenium JS script",
+  "main": "selenium.spec.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "selenium",
+    "javascript",
+    "node"
+  ],
+  "author": "alejandromzs",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
