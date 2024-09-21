@@ -6,6 +6,17 @@ The name of the folder will try to represent the main technologies used in the c
 
 # List of frameworks:
 * seleniumcucumberJavaMavenJunitWin
+* seleniumJavascriptNodeMac
+
+# To-Do Frameworks:
+* RestAssured
+* Katalon
+* Cypress
+* Playwright
+* Apium
+* JMeter
+* Jest
+* Karate
 
 
 ## Author
