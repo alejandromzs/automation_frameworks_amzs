@@ -11,9 +11,13 @@ This framework has been developed to demostrate the use of selenium 4 with javas
 <h4>1_singleScript</h4>
 
 * libraries:
-  * selenium-webdriver v4 
-  * mocha v10:  testing framework 
-* location: Mocha looks for test files in a directory named test (test/*.spec.js or test/*.test.js)
+```bash
+   npm install selenium-webdriver   
+   npm install mocha 
+```
+  * Selenium-webdriver version 4
+  * Mocha version 10 
+    * location: Mocha looks for test files in a directory named test (test/*.spec.js or test/*.test.js)
 
 * TBD
 

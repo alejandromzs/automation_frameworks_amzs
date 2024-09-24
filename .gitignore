@@ -1,0 +1,14 @@
+target/
+
+### IntelliJ IDEA ###
+.idea
+.idea/
+
+### VS Code ###
+.vscode/
+
+node_modules/
+**/node_modules/
+
+package-lock.json 
+**/package-lock.json

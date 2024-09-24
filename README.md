@@ -7,17 +7,27 @@ The name of the folder will try to represent the main technologies used in the c
 # List of frameworks:
 * seleniumcucumberJavaMavenJunitWin
 * seleniumJavascriptNodeMac
+* CypressJSNodeMac
+    * 1_SingleScript : Basic scripts created by following cypress documentation 2024
+    * 2_IntermediateScript: 
+        * 
 
 # To-Do Frameworks:
 * RestAssured
 * Katalon
-* Cypress
 * Playwright
 * Apium
 * JMeter
 * Jest
 * Karate
 
+# Recomendations
+* Work with a framework that fits the programming languages your team is familiar with.
+* Seed data into the DB or use APIs to create test data.
+* Cypress over Selenium if JS and latest technologies:
+    * Time travel
+    * Real time reloads
+    * Automatic waitings (for new commands)
 
 ## Author
 - [Alejandro Zegarra Silva](https://www.linkedin.com/in/alejandromzs/)
