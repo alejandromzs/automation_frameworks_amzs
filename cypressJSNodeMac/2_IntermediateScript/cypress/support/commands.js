@@ -1,3 +1,13 @@
+
+Cypress.Commands.add('customCommandExample',(text) =>{
+    //It will log to console in the browser. For test purpose only
+    //For cy log use cy.log
+    console.log("the customCommandExample log is: " + text);
+
+})
+
+ 
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
